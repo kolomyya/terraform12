@@ -1,7 +1,7 @@
 terraform {
   backend "s3" { 
-     bucket  = "kubernetes-cluster-dev-andrew"
-     key     = "state"
+     bucket  =  "andzin-dev"
+     key     = "dev-state"
      region  = "eu-west-1"
 
 
